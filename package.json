@@ -1,0 +1,45 @@
+{
+  "name": "esign-proxy",
+  "version": "1.0.0",
+  "description": "esign-proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "nodemon index.js",
+    "test": "nyc ava tests/**/**",
+    "coverage": "nyc ava tests/**/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@ssh.dev.azure.com:v3/tu-identidad/eSign-Service/esign-proxy"
+  },
+  "keywords": [
+    "esign-proxy"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "celebrate": "^13.0.4",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "request": "^2.88.2",
+    "sequelize": "^6.21.3",
+    "sequelize-cli": "^6.4.1",
+    "swagger-jsdoc": "^5.0.1",
+    "swagger-ui-express": "^4.5.0",
+    "tedious": "^15.0.0",
+    "uuid": "^8.3.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "ava": "^4.3.1",
+    "nyc": "^15.1.0",
+    "supertest": "^6.0.1"
+  }
+}
