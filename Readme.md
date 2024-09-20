@@ -18,12 +18,12 @@ npm install
 
 Create a copy of the file `.env.example` and rename to `.env`. Setup your environment variables.
 
-### 2. Run project
+### 3. Run project
 
 ```sh
 npm start
 ```
 
-### 3. Test the application openign the browser
+### 4. Test the application openign the browser
 
 Open your browser at `http://localhost:3000/api-docs`
